@@ -1,14 +1,14 @@
 name: marlin_sdk
-description: A sample command-line application.
-version: 1.0.0
-# repository: https://github.com/my_org/my_repo
+description: An SDK to send GCode to Marlin-compatible devices.
+version: 1.0.0+1
+repository: https://github.com/sbordeyne/marlin_sdk
+publish_to: 'pub.dev'
+issue_tracker: https://github.com/sbordeyne/marlin_sdk/issues
 
 environment:
   sdk: ^3.3.3
 
-# Add regular dependencies here.
-dependencies:
-  # path: ^1.8.0
+dependencies: {}
 
 dev_dependencies:
   lints: ^3.0.0
